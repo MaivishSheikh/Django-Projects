@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Archon List</title>
+</head>
+<body>
+    <h1>Welcome to the Archon List</h1>
+    <ul>
+        <li>Venti</li>
+        <li>Zhongli</li>
+        <li>Raiden Shogun</li>
+        <li>{{ name }}'s element is {{ element }}</li>
+        <li>{{ country }}</li>
+    </ul>
+    <h2>Submit Your Archon</h2>
+    <p>Fill out the form below to submit your favorite Archon:</p>
+    <form method="" action="register/">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="country">Nation:</label>
+        <input type="text" id="country" name="country">
+        <br>
+        <label for="element">Element:</label>
+        <input type="text" id="element" name="element">
+        <br>
+        <textarea id="archon" name="archon" rows="10" cols="50" placeholder="Describe your favorite Archon..."></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

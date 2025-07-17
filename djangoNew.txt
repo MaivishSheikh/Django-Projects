@@ -1,0 +1,14 @@
+How to create a new Django Project
+
+1. Open CMD
+2. type 'mkvirtualenv (name of the virtual env)'
+3. type 'pip install django'
+4. check if you are in the directory you want your project in e.g. 'C:\Users\HP-1\OneDrive\Desktop\Python Django'
+5. now create a project by typing in the cmd 'django-admin startproject (name of the project)
+6. if you wanna access your virtualenv again you can type 'workon (name of the virtualenv)'
+
+How to create a Django App
+
+1. check if you are in the main directory containing the manage.py e.g. 'C:\Users\HP-1\OneDrive\Desktop\Python Django\myproject>'
+2. type 'python manage.py startapp myapp' to start the App
+3. to run the server type 'python manage.py runserver'
